@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradient_back_ground"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/padding_10">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="@dimen/pin_log_top_margin"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pin_component_margin"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/tv_logo" />
+
+
+    <TextView
+        android:id="@+id/tv_logo_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pin_component_margin"
+        android:layout_marginBottom="@dimen/pin_component_margin"
+        android:gravity="center"
+        android:text="@string/logo_enter_passcode"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/tv_logo_bulabula"/>
+
+    <com.my.mysafe.passcode.PasscodeIndicator
+        android:id="@+id/indicator_passcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pin_component_margin"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        app:indicator_background="@drawable/indicator_normal"
+        app:indicator_background_active="@drawable/indicator_fill"
+        app:indicator_length="4"
+        app:indicator_level="0"
+        app:indicator_size="10dp" />
+
+    <com.my.mysafe.passcode.PasscodeView
+        android:id="@+id/kbd_passcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pin_component_margin"
+        />
+
+
+</LinearLayout>

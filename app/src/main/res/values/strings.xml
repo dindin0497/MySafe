@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MySafe</string>
+    <string name="logo_enter_passcode">Enter Passcode</string>
+</resources>

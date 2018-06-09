@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.my.mysafe.ui.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/browser_adapter_space"
+    android:background="@color/dark_blue">
+
+    <ImageView
+        android:id="@+id/iv_import"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/stroke"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="@dimen/browse_name_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:text="@string/app_name"/>
+
+</com.my.mysafe.ui.SquareFrameLayout>

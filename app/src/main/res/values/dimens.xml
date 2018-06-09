@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_logo">24sp</dimen>
+    <dimen name="pin_log_top_margin">50dp</dimen>
+    <dimen name="pin_component_margin">20dp</dimen>
+    <dimen name="title_text">15sp</dimen>
+    <dimen name="blue_number">20dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="tv_logo_bulabula">14sp</dimen>
+    <dimen name="browser_adapter_space">2dp</dimen>
+    <dimen name="browse_name_font">15sp</dimen>
+</resources>

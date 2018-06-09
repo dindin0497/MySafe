@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasscodeIndicator">
+        <attr name="indicator_length" format="integer" />
+        <attr name="indicator_level" format="integer" />
+        <attr name="indicator_size" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_background" format="color|reference" />
+        <attr name="indicator_background_point" format="color|reference" />
+        <attr name="indicator_background_active" format="color|reference" />
+        <attr name="indicator_animation" format="reference" />
+    </declare-styleable>
+
+</resources>
