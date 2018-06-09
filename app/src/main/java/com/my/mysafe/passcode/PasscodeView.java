@@ -256,10 +256,6 @@ public class PasscodeView extends ViewGroup {
         this.adapter.notifyDataSetChanged();
     }
 
-    public PasscodeBaseAdapter getAdapter() {
-        return adapter;
-    }
-
     public interface OnItemClickListener {
         void onItemClick(PasscodeView view, int position, View item, Object o);
     }
@@ -331,13 +327,7 @@ public class PasscodeView extends ViewGroup {
             super(width, height);
         }
 
-        public LayoutParams(MarginLayoutParams params) {
-            super(params);
-        }
 
-        public LayoutParams() {
-            super(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-        }
 
     }
 

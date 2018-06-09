@@ -11,8 +11,7 @@
         android:layout_marginBottom="3dp" />
 
     <TextView
-        android:id="@+id/header_bar_photo_count"
-        android:background="@color/bottom_single"
+        android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

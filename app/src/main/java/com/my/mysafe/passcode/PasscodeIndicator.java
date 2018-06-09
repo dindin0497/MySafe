@@ -137,12 +137,7 @@ public class PasscodeIndicator extends LinearLayout {
         startAnimation(wrongAnimation);
     }
 
-    @TargetApi(Build.VERSION_CODES.FROYO)
-    public void clear() {
-        if (wrongAnimation != null)
-            wrongAnimation.cancel();
-        setIndicatorLevel(0);
-    }
+
 
     // Setters -------------------------------------------------------------------------------------
     public void setIndicatorLevel(int level) {

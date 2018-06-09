@@ -34,8 +34,8 @@ public class SingleBrowserActivity extends AppCompatActivity implements MainCont
 
     ViewPagerAdapter pagerAdapter;
 
-    @BindView(R.id.header_bar_photo_count)
-    protected TextView mCountView;
+    @BindView(R.id.tv_title)
+    protected TextView tvTitle;
 
     private int position;
 
@@ -145,7 +145,7 @@ public class SingleBrowserActivity extends AppCompatActivity implements MainCont
         Node node=presenter.getItem(position);
         if (node!=null) {
             String text = "page "+node.page+" - "+(node.index+1)+"/"+presenter.getPageCount(node.page) ;
-            mCountView.setText(text);
+            tvTitle.setText(text);
         }
     }
 
