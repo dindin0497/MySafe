@@ -33,7 +33,7 @@ It will automatically load the next page while scroll to the bottom
 
 
 
-Single browse Actity 
+Single browse Activity 
 
 
 ![screenshot](https://github.com/dindin0497/MySafe/blob/master/3.png)
